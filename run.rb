@@ -22,9 +22,18 @@ module Run
     1
   end
 
+  def new_and_covered
+    :ok
+  end
+
   # :nocov:
   def ignore_me
     0
   end
   # :nocov:
+
+  def relevant_patch
+    # new and not covered
+    :not_covered
+  end
 end
