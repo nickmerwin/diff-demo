@@ -15,6 +15,7 @@ module RunTwo
   end
 
   def uncovered
+    x = 1
     0
   end
 end
