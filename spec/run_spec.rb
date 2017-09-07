@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe Run do
   it "runs" do
-    # expect(Run.this_is_covered).to eq 1
+    expect(Run.this_is_not_covered).to_not be_nil
     expect(Run.another_method).to eq "yo"
   end
 
@@ -11,7 +11,8 @@ describe Run do
   end
 
   it "runs new and covered" do
-    expect(Run.new_and_covered).to eq :ok
+    # expect(Run.new_and_covered).to eq :ok
+    expect(Run.f5_covered_method).to_not be_nil
 
     expect(RunTwo.covered).to eq 1
   end

@@ -39,4 +39,8 @@ module Run
   def added_on_master
     2
   end
+
+  def f5_covered_method
+    a = 1 + 1
+  end
 end

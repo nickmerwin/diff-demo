@@ -8,4 +8,8 @@ module RunTwo
   def uncovered
     0
   end
+
+  def f5_not_covered
+    b = 1 + 1
+  end
 end
