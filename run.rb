@@ -13,6 +13,7 @@ module Run
   end
 
   def another_method
+    x = 1 # added stuff
     "yo"
   end
 
